@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS accounts (
 
 CREATE TABLE IF NOT EXISTS entries (
     id serial PRIMARY KEY,
-    created_at TIMESTAMP NOT NULL,
+    createdAt TIMESTAMP NOT NULL,
     num VARCHAR ( 25 ) NOT NULL,
     description VARCHAR (50),
     amount NUMERIC(6,2),

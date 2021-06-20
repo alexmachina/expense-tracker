@@ -13,3 +13,9 @@ const typeDefs = gql`
     account: Account
   }
 `;
+
+const resolvers = {
+  Query: {
+    accounts: () => {},
+  },
+};
