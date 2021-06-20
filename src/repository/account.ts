@@ -29,12 +29,12 @@ export default class AccountRepository {
     return result.rows[0];
   }
 
-  static async delete(account: Account): Promise<Account> {
-    const query = "DELETE FROM accounts WHERE id=$1";
-    const values = [account.id];
-    const result = await client.query(query, values);
-    return resul;
-  }
+  // static async delete(account: Account): Promise<Account> {
+  //   const query = "DELETE FROM accounts WHERE id=$1";
+  //   const values = [account.id];
+  //   const result = await client.query(query, values);
+  //   return resul;
+  // }
 
   constructor() {}
 }

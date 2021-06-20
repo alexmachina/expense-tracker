@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "build",
+    "moduleResolution": "node",
+    "target": "ES6",
+    "esModuleInterop": true
+  }
+}

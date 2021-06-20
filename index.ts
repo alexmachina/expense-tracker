@@ -1,5 +1,5 @@
-import dotenv from "dotenv";
-dotenv.config({
+import { config } from "dotenv";
+config({
   path: process.env.NODE_ENV ? `.env.${process.env.NODE_ENV}` : ".env",
 });
 import AccountRepository from "./src/repository/account";
