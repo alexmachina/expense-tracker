@@ -7,12 +7,12 @@ A tiny version applying the accounting principles used in HomeBank, GNU Cash, et
 Yes, I'll add a GraphQL *and* a REST client on this baby, just for fun.
 
 ### Multiple clients
-Web app? Check.
-iPhone app? No money for that yet.
-Android app? Check.
-CLI app? Check.
-Windows UWP app? Check.
-GTK/Qt app? Don't wanna dive too deep, but isn't UWP diving deep enough?
+- Web app? Check.
+- iPhone app? No money for that yet.
+- Android app? Check.
+- CLI app? Check.
+- Windows UWP app? Check.
+- GTK/Qt app? Don't wanna dive too deep, but isn't UWP diving deep enough?
 
 
 
